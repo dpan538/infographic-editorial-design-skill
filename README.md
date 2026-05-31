@@ -19,6 +19,8 @@ Download or clone this repository, then install it as a Codex / ChatGPT skill by
 The skill root contains:
 
 ```text
+README.md
+LICENSE
 SKILL.md
 agents/openai.yaml
 references/
@@ -56,4 +58,6 @@ Infographic/editorial design method adapted from the Words Over Time design rese
 
 ## License
 
-License has not been finalized yet. A permissive documentation license such as CC BY 4.0 is recommended for the skill text, while the original Words Over Time visual identity, research writing, curated datasets, classifications, page compositions, and third-party source material remain outside this repository's license grant unless explicitly stated otherwise.
+This skill package is released under the MIT License. See `LICENSE`.
+
+The original Words Over Time visual identity, research writing, curated datasets, classifications, page compositions, authorship marks, and third-party source material remain outside this repository's MIT license grant unless explicitly stated otherwise.

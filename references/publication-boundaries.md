@@ -42,18 +42,13 @@ For public repositories, include:
 - A link to the public source when available.
 - The license chosen for the skill text.
 
-## License Decision
+## License
 
-Choose a license before publishing this skill as a standalone public package.
+This skill package is intended to be published under the MIT License.
 
-Practical options:
+The MIT grant covers the skill package: `SKILL.md`, bundled references, examples, helper metadata, and other files whose purpose is to make the skill installable and reusable.
 
-- MIT: familiar for software repositories and permissive reuse.
-- Apache-2.0: permissive reuse with explicit patent language.
-- CC BY 4.0: appropriate for documentation, writing, and design-method text when attribution matters.
-- CC BY-NC 4.0: restricts commercial use, but is not considered open source by common open-source definitions.
-
-If the goal is broad open-source sharing with attribution, CC BY 4.0 is a good default for the written skill materials. If the goal is compatibility with code repositories, MIT is simpler. Keep project-specific Words Over Time content and third-party source material outside the license grant unless the author explicitly chooses otherwise.
+Keep project-specific Words Over Time content and third-party source material outside the license grant unless the author explicitly chooses otherwise. This includes the complete Words Over Time visual identity, research writing, curated datasets, classifications, page compositions, authorship marks, and upstream material.
 
 ## Public Release Checklist
 
@@ -62,6 +57,6 @@ Before sharing:
 - Run the skill validator.
 - Remove private notes, unfinished placeholders, and local-only assumptions.
 - Confirm that examples do not include restricted text, unreleased data, or copied visual assets.
-- Add a license file once the author chooses the license.
+- Include the MIT license file.
 - Mention that the skill generalizes a method and should not be used to clone Words Over Time's identity.
 - Test at least one prompt from `prompt-recipes.md`.
