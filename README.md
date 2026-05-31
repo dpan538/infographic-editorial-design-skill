@@ -4,6 +4,12 @@ A research-led infographic and editorial design skill for creating auditable vis
 
 Inspired by *Words Over Time* by Dai Pan / 潘岱, this skill helps transform datasets, archival material, semantic maps, timelines, and source-based arguments into structured visual systems with clear hierarchy, grid discipline, claim boundaries, attribution, and publication-ready design review.
 
+## Why This Exists
+
+AI tools can quickly produce polished charts and layouts, but they often blur the line between data, interpretation, evidence, and claim. This skill is built for the opposite habit: define the claim first, expose the source contract, design the reading path, and make uncertainty visible.
+
+It generalizes the design method behind *Words Over Time* into an installable skill for researchers, designers, writers, educators, data journalists, and anyone building source-led visual systems.
+
 ## What It Helps With
 
 - Designing source-led infographics and research posters
@@ -26,6 +32,12 @@ agents/openai.yaml
 references/
 ```
 
+For local Codex usage, copy this repository folder into your skills directory, then invoke it by name:
+
+```text
+Use $infographic-editorial-design to ...
+```
+
 ## Example Prompts
 
 ```text
@@ -39,6 +51,20 @@ Use $infographic-editorial-design to critique this data page before publication.
 ```text
 Use $infographic-editorial-design to adapt the Words Over Time design method for a different subject without copying its visual identity.
 ```
+
+## Example Outputs
+
+The skill is designed to produce:
+
+- A bounded concept statement
+- An evidence contract and source hierarchy
+- An editorial page sequence
+- Grid, typography, palette, and interaction rules
+- Data mark and annotation guidance
+- Claim boundaries and caveats
+- A publication review checklist
+
+For implementation tasks, it can also guide code changes in an existing web app while preserving the local design system.
 
 ## References
 
@@ -61,3 +87,7 @@ Infographic/editorial design method adapted from the Words Over Time design rese
 This skill package is released under the MIT License. See `LICENSE`.
 
 The original Words Over Time visual identity, research writing, curated datasets, classifications, page compositions, authorship marks, and third-party source material remain outside this repository's MIT license grant unless explicitly stated otherwise.
+
+## Related Project
+
+*Words Over Time* is the originating design research project and complete case study for this method: <https://wordsovertime.com>.
