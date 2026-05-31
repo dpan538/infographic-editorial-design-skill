@@ -2,13 +2,13 @@
 
 A research-led infographic and editorial design skill for creating auditable visual essays, data stories, research posters, source ledgers, and evidence maps.
 
-Inspired by *Words Over Time* by Dai Pan / 潘岱, this skill helps transform datasets, archival material, semantic maps, timelines, and source-based arguments into structured visual systems with clear hierarchy, grid discipline, claim boundaries, attribution, and publication-ready design review.
+This skill helps transform datasets, archival material, semantic maps, timelines, and source-based arguments into structured visual systems with clear hierarchy, grid discipline, claim boundaries, attribution, and publication-ready design review.
 
 ## Why This Exists
 
 AI tools can quickly produce polished charts and layouts, but they often blur the line between data, interpretation, evidence, and claim. This skill is built for the opposite habit: define the claim first, expose the source contract, design the reading path, and make uncertainty visible.
 
-It generalizes the design method behind *Words Over Time* into an installable skill for researchers, designers, writers, educators, data journalists, and anyone building source-led visual systems.
+It distills field-tested editorial and information design practice into an installable skill for researchers, designers, writers, educators, data journalists, and anyone building source-led visual systems.
 
 ## What It Helps With
 
@@ -16,7 +16,7 @@ It generalizes the design method behind *Words Over Time* into an installable sk
 - Structuring editorial data stories and visual essays
 - Reviewing charts for overclaiming, weak hierarchy, or hidden uncertainty
 - Building evidence maps, source ledgers, and methods pages
-- Adapting the Words Over Time design method without cloning its visual identity
+- Adapting rigorous editorial design patterns to new subjects without copying a project's visual identity
 
 ## Install
 
@@ -49,7 +49,7 @@ Use $infographic-editorial-design to critique this data page before publication.
 ```
 
 ```text
-Use $infographic-editorial-design to adapt the Words Over Time design method for a different subject without copying its visual identity.
+Use $infographic-editorial-design to adapt a rigorous editorial design method for a new subject. Keep the evidence discipline and design a distinct visual language.
 ```
 
 ## Example Outputs
@@ -68,7 +68,7 @@ For implementation tasks, it can also guide code changes in an existing web app 
 
 ## References
 
-- `references/words-over-time-principles.md` - project DNA, designer references, evidence model, visual programme, and rights boundaries.
+- `references/design-principles.md` - designer references, evidence model, visual programme, and rights boundaries.
 - `references/pattern-library.md` - reusable page and module patterns.
 - `references/prompt-recipes.md` - prompts for common use cases.
 - `references/evaluation-rubric.md` - publication and critique checklist.
@@ -76,18 +76,14 @@ For implementation tasks, it can also guide code changes in an existing web app 
 
 ## Attribution
 
-Recommended attribution when this skill or method materially informs a public project:
+Recommended attribution when this skill materially informs a public project:
 
 ```text
-Infographic/editorial design method adapted from the Words Over Time design research system by Dai Pan / 潘岱.
+Built with the Infographic Editorial Design Skill by Dai Pan / 潘岱.
 ```
 
 ## License
 
 This skill package is released under the MIT License. See `LICENSE`.
 
-The original Words Over Time visual identity, research writing, curated datasets, classifications, page compositions, authorship marks, and third-party source material remain outside this repository's MIT license grant unless explicitly stated otherwise.
-
-## Related Project
-
-*Words Over Time* is the originating design research project and complete case study for this method: <https://wordsovertime.com>.
+The license covers this skill package. It does not grant rights to third-party source material, external project identities, private datasets, brand assets, or example materials that users may bring into their own projects.
